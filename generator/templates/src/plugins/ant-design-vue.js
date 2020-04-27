@@ -11,8 +11,8 @@ Vue.use(Antd)
 import { Pagination, Button } from 'ant-design-vue'
 <%_ if (options.lang !== 'en_US') { _%>
 import { LocaleProvider } from 'ant-design-vue'
-<%_ } _%>
 Vue.component(LocaleProvider.name, LocaleProvider)
+<%_ } _%>
 Vue.component(Pagination.name, Pagination)
 Vue.component(Button.name, Button)
 <%_ } _%>
