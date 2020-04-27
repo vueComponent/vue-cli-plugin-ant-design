@@ -3,7 +3,7 @@ module.exports = (api, opts, rootOptions) => {
 
   api.extendPackage({
     dependencies: {
-      'ant-design-vue': '^1.2.4'
+      'ant-design-vue': '^1.3.8'
     }
   })
 
